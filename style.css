@@ -585,7 +585,10 @@
    padding: 16px 16px;
    background-color: #263c6dc0;
  }
- 
+#footer__email {
+   display: flex;
+   padding: 10px;
+} 
  .footer-container ul {
    display: flex;
    padding: 0;
