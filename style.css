@@ -611,10 +611,10 @@
       justify-self: center;
       width: 100%;
       margin: 0 auto;
-      height: 200vh;
+      height: 150vh;
    }
    
-   .core h1 {
+   .core h1 { 
       font-size: 2rem;
       text-align: center;
    }
@@ -631,7 +631,7 @@
       justify-self: center;
       width: 100%;
       margin: 0 auto;
-      height: 180vh;
+      height: 250vh;
       place-items: center;
    }
    .service__container {
@@ -685,7 +685,7 @@
 
 }
 
-@media screen and(max-width: 480px) {
+@media screen and (max-width: 660px) {
    .main__content h1 {
       font-size: 2rem;
       margin-top: 3rem;
@@ -700,5 +700,148 @@
    .main__btn {
       padding: 12px 36px;
       margin: 2.5rem 0;
+   }
+   .about {
+      height: fit-content;
+   }
+   .about__container {
+      display: inline;
+      align-items: center;
+      justify-self: center;
+      width: 100%;
+      margin: 0 auto;
+      height: fit-content;
+   }
+   .about__pic {
+      height: 5rem;
+      width: auto;
+      margin: 0 auto;
+   }
+   .about h1 {
+      width: auto;
+      text-align: center;
+      font-size: 2rem;
+   }
+   .about h2 {
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   .about h3 {
+      text-align: center;
+      font-size: 1.2rem;
+   }
+   .about p {
+      text-align: center;
+      font-size: 0.8rem;
+      padding-bottom: 20px;
+   }
+   .core {
+      height: fit-content;
+      padding-bottom: 20px;
+   }
+   .core__container {
+      align-items: center;
+      justify-self: center;
+      width: 100%;
+      margin: 0 auto;
+      height: fit-content;
+   }
+   .core h1 {
+      width: auto;
+      text-align: center;
+      font-size: 2rem;
+   }
+   .core h2 {
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   .core p {
+      width: 100%;
+      margin: auto;
+      text-align: left;
+      font-size: 0.8rem;
+   }
+   .service {
+      padding: 20px;
+      margin: 0;
+      height: fit-content;
+   }
+   .service__container {
+      align-items: center;
+      justify-self: center;
+      width: auto;
+      height: fit-content;
+   }
+   .service h1 {
+      width: auto;
+      margin: 20px;
+      text-align: center;
+      font-size: 2rem;
+   }
+   .service h2 {
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   #service__column1 {
+      padding-left: -5rem;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: fit-content;
+      padding: auto 20px;
+      height: auto;
+
+   }
+   #service__column2 {
+      padding-left: -5rem;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: fit-content;
+      padding: auto 20px;
+      height: auto;
+   }
+   .contact {
+      padding: 20px;
+      margin: 0;
+      height: fit-content;
+   }
+   .contact__container {
+      display: block;
+      align-items: center;
+      justify-self: center;
+      width: auto;
+      height: fit-content;
+   }
+   .contact h1 {
+      width: auto;
+      margin: 10px;
+      text-align: center;
+      font-size: 2rem;
+   }
+   .contact h2 {
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   .contact li {
+      text-align: center;
+   }
+   #contact__column1 {
+      padding-left: -5rem;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: fit-content;
+      padding: auto 20px;
+      height: auto;
+   }
+   .contact__map iframe {
+      margin: 0 auto;
+      height: fit-content;
+      width: auto;
+      left: 0;
+      top: 0;
+      position: absolute;
+      border-radius: 20px;
    }
 }
