@@ -197,6 +197,44 @@
     #mobile-menu.is-active .bar:nth-child(3) {
        transform: translateY(-8px) rotate(-45deg);
     }
+    .service {
+      padding: 20px;
+      margin: 0;
+      height: fit-content;
+   }
+   .service__container {
+      display: block;
+      align-items: center;
+      justify-self: center;
+      width: auto;
+      height: fit-content;
+   }
+   .service h1 {
+      width: auto;
+      margin: 20px;
+      text-align: center;
+      font-size: 2rem;
+   }
+   .service h2 {
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   #service__column1 {
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: fit-content;
+      padding: auto 20px;
+
+   }
+   #service__column2 {
+      padding: 0 20px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      width: fit-content;
+      padding: auto 20px;
+   }
  }
  
  /* Hero Section 8*/
@@ -416,10 +454,12 @@
    background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic4v2.jpg);
    background-position: center;
    background-size: cover;
+   height: fit-content;
+   padding-bottom: 20px;
  }
  .core__container {
    margin: 0 auto;
-   height: 160vh;
+   height: fit-content;
    z-index: 1;
    width: 100%;
    max-width: 1300px;
@@ -611,7 +651,15 @@
       justify-self: center;
       width: 100%;
       margin: 0 auto;
-      height: 150vh;
+      height: fit-content;
+      padding-bottom: 20px;
+   }
+   .core__container {
+      align-items: center;
+      justify-self: center;
+      width: 100%;
+      margin: 0 auto;
+      height: fit-content;
    }
    
    .core h1 { 
@@ -837,8 +885,8 @@
    }
    .contact__map iframe {
       margin: 0 auto;
-      height: fit-content;
-      width: auto;
+      height: 50vh;
+      width: 60vw;
       left: 0;
       top: 0;
       position: absolute;
