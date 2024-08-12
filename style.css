@@ -362,7 +362,7 @@
  
  .about {
    background-color: #fff;
-   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic3.jpg);
+   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic3v2.jpg);
    background-position: center;
    background-size: cover;
 }
@@ -413,7 +413,7 @@
 
  .core {
    background-color: #fff;
-   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic4.jpg);
+   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic4v2.jpg);
    background-position: center;
    background-size: cover;
  }
@@ -500,7 +500,7 @@
    float: right;
    flex-wrap: wrap;
    background-color: #fff;
-   background-image: linear-gradient(rgba(70, 109, 40, 0.388), rgba(48, 106, 49, 0.53)), url(images/pic6.jpg);
+   background-image: linear-gradient(rgba(70, 109, 40, 0.388), rgba(48, 106, 49, 0.53)), url(images/pic6v2.jpg);
    background-position: center;
    background-size: cover;
    border-radius: 20px;
@@ -519,7 +519,7 @@
 
  .contact {
    background-color: #fff;
-   background-image: linear-gradient(rgba(60, 65, 66, 0.489), rgba(104, 109, 113, 0.308)), url(images/pic7.jpg);
+   background-image: linear-gradient(rgba(60, 65, 66, 0.489), rgba(104, 109, 113, 0.308)), url(images/pic7v2.jpg);
    background-position: center;
    background-size: cover;
 }
