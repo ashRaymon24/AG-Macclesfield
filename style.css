@@ -150,7 +150,7 @@
  }
  
  .button:hover {
-    background-color: #f77062;
+    background-color: #f69337;
     transition: all 0.3s ease;
  }
  
@@ -290,7 +290,7 @@
    }
  }
  
- /* Hero Section 8*/
+
 
  .main2 {
    width: auto;
@@ -311,7 +311,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 100vh;
+    height: 110vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -340,7 +340,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
  }
  .main__content h3 {
    text-align: center;
@@ -695,6 +695,11 @@
    font-size: 1.2rem;
    list-style-type: none;
    color: #fff;
+ }
+ #contact__link {
+   text-align: left;
+   font-weight: 500;
+   color: #21dad6;
  }
  .footer-container {
    display: flex;
