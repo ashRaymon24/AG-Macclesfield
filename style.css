@@ -62,7 +62,7 @@
    overflow: hidden;
  }
  
- /* Dropdown button */
+
  .dropdown .dropbtn {
    font-size: 16px;
    border: none;
@@ -70,12 +70,12 @@
    color: white;
    padding: 20px 15px;
    background-color: inherit;
-   font-family: inherit; /* Important for vertical align on mobile phones */
-   margin: 0; /* Important for vertical align on mobile phones */
+   font-family: inherit; 
+   margin: 0; 
    white-space: nowrap;
  }
  
- /* Dropdown content (hidden by default) */
+ 
  .dropdown-content {
    display: none;
    position: absolute;
@@ -85,7 +85,7 @@
    z-index: 1;
  }
  
- /* Links inside the dropdown */
+
  .dropdown-content a {
    float: none;
    color: #fff;
@@ -96,12 +96,12 @@
    white-space: nowrap;
  }
  
- /* Add a grey background color to dropdown links on hover */
+
  .dropdown-content a:hover {
    background-color: rgba(8, 37, 83, 0.7);
  }
  
- /* Show the dropdown menu on hover */
+
  .dropdown:hover .dropdown-content {
    display: block;
  }
@@ -295,10 +295,11 @@
  .main2 {
    width: auto;
    max-width: 1300px;
+   height: fit-content;
  }
  .main {
     background-color: #fff;
-    background-image: linear-gradient(rgba(40, 48, 50, 0.7), rgba(65, 71, 75, 0.7)), url(images/pic1.jpg);
+    background-image: linear-gradient(rgba(52, 59, 61, 0.55), rgba(65, 71, 75, 0.55)), url(images/pic1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -318,6 +319,31 @@
  }
  
  .main__content h1 {
+   text-align: center;
+    font-size: 6rem;
+    background-color: #fff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    padding-bottom: 30px;
+ }
+ 
+ .main__content h2 {
+   text-align: center;
+    font-size: 3.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #fff36a 0%, #ffd21c 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    padding-bottom: 30px;
+ }
+ .main__content h3 {
+   text-align: center;
     font-size: 3.5rem;
     background-color: #fff;
     background-size: 100%;
@@ -327,22 +353,19 @@
     -moz-text-fill-color:transparent;
  }
  
- .main__content h2 {
-    font-size: 3.5rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #fa564a 0%, #f4e543 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
- }
- 
  .main__content p {
+   display: inline;
     margin-top: 1rem;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #fff;
+ }
+ #main__AGlink {
+   display: inline;
+   margin-top: 1rem;
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #4bbef4;
  }
  
  .main__btn {
