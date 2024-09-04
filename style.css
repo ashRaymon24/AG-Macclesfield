@@ -299,7 +299,7 @@
  }
  .main {
     background-color: #fff;
-    background-image: linear-gradient(rgba(52, 59, 61, 0.55), rgba(65, 71, 75, 0.55)), url(images/pic1.jpg);
+    background-image: linear-gradient(rgba(26, 36, 39, 0.5), rgba(29, 37, 44, 0.5)), url(images/pic1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -483,7 +483,7 @@
  
  .about {
    background-color: #fff;
-   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic3v2.jpg);
+   background-image: linear-gradient(rgba(82, 87, 98, 0.6), rgba(118, 136, 151, 0.6)), url(images/pic3v2.jpg);
    background-position: center;
    background-size: cover;
 }
@@ -534,7 +534,7 @@
 
  .core {
    background-color: #fff;
-   background-image: linear-gradient(rgba(99, 106, 108, 0.7), rgba(104, 109, 113, 0.7)), url(images/pic4v2.jpg);
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic13v2.jpg);
    background-position: center;
    background-size: cover;
    height: fit-content;
@@ -571,7 +571,7 @@
    padding-top: 1rem;
    margin: 0 20px;
    font-size: 2rem;
-   color: #c2ddff;
+   color: #9bcef8;
  }
  .core p {
    text-align: center;
