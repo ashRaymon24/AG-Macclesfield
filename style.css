@@ -25,7 +25,9 @@
    transform: translateY(-60px);
    box-shadow: none;
  }
- 
+ #navbar__mob {
+   display: none;
+ }
  .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -71,8 +73,8 @@
    padding: 20px 15px;
    background-color: inherit;
    font-family: inherit; 
-   margin: 0; 
    white-space: nowrap;
+   color: #fff;
  }
  
  
@@ -162,14 +164,23 @@
    #navbar__AG {
       display: none;
    }
+   #navbar__mob {
+      display: block;
+    }
+    .dropbtn {
+      display: none;
+    }
    #navbar__logo {
       display: flex;
       margin: auto auto;
    }
+   .navbar {
+      padding: 10px 0;
+   }
     .navbar__container {
        display: flex;
        justify-content: space-between;
-       height: 80px;
+       height: auto;
        z-index: 1;
        width: 100%;
        max-width: 1300px;
@@ -180,22 +191,22 @@
        display: grid;
        grid-template-columns: auto;
        margin: 0;
+       padding: 20px 0;
        width: 100%;
        position: absolute;
        top: -1000px;
        opacity: 0;
        transition: all 0.5s ease;
-       height: 50vh;
        z-index: -1;
     }
  
     .navbar__menu.active {
-       background: #131313;
+       background: rgba(1, 25, 64, 0.9);;
        top: 100%;
        opacity: 1;
        transition: all 0.5s ease;
        z-index: 99;
-       height: 60vh;
+       height: fit-content;
        font-size: 1.6rem;
     }
  
@@ -214,7 +225,7 @@
     }
     .navbar__links {
        text-align: center;
-       padding: 1rem;
+       padding: 10px 0;
        width: 100%;
        display: table;
     }
@@ -225,15 +236,14 @@
        transform: translate(5%, 20%);
     }
     .navbar__btn {
-       padding-bottom: 3rem;
+      padding-bottom: 10px;
     }
     .button {
        display: flex;
        justify-content: center;
        align-items: center;
        width: 80%;
-       height: 60px;
-       margin: 0;
+       height: 50px;
     }
  
     .navbar__toggle .bar {
@@ -250,6 +260,7 @@
     #mobile-menu.is-active .bar:nth-child(3) {
        transform: translateY(-8px) rotate(-45deg);
     }
+    
     .service {
       padding: 20px;
       margin: 0;
