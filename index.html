@@ -29,17 +29,32 @@
                         </li>
                         <li>
                             <div class="dropdown" class="navbar__item">
-                                <button class="dropbtn">About us
+                                <button class="dropbtn" >About us
                                 <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
-                                <a href="#about__jump">Who we are</a>
+                                <a href="#about__jump" >Who we are</a>
                                 <a href="#about__jump">Church Leaders</a>
                                 <a href="#core__jump">Fundamental Beliefs</a>
                                 <a href="#core__jump">Core Values</a>
                                 </div>
                             </div>
                         </li>
+                        <div id="navbar__mob">
+
+                            <li class="navbar__item">
+                                <a href="#about__jump" class="navbar__links">Who we are</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#about__jump" class="navbar__links">Church Leaders</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#core__jump" class="navbar__links">Fundamental Beliefs</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#core__jump" class="navbar__links">Core Values</a>
+                            </li>
+                        </div> 
                         <li class="navbar__item">
                             <a href="#service__jump" class="navbar__links">Our Programmes</a>
                         </li>
@@ -279,6 +294,7 @@
             <script>
                 const menu = document.querySelector('#mobile-menu');
                 const menuLinks = document.querySelector('.navbar__menu');
+                const navbarMob = document.getElementById('navbar__mob')
                 menu.addEventListener('click', function() {
                     menu.classList.toggle('is-active');
                     menuLinks.classList.toggle('active');
