@@ -770,7 +770,7 @@
 /* Mobile Responsive */
 @media screen and (max-width: 760px) {
    .core {
-      display: grid;
+     
       align-items: center;
       justify-self: center;
       width: 100%;
@@ -779,11 +779,19 @@
       padding-bottom: 20px;
    }
    .core__container {
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-self: center;
       width: 100%;
       margin: 0 auto;
       height: fit-content;
+   }
+   .core__column1 {
+      display: flex;
+   }
+   .core__column2 {
+      display: flex;
    }
    
    .core h1 { 
