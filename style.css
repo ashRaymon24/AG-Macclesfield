@@ -316,10 +316,12 @@
  
  .main__container {
     display: flex;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
+    min-height: 100vh;
     height: fit-content;
     z-index: 1;
     width: 100%;
@@ -362,23 +364,15 @@
     -moz-text-fill-color:transparent;
  }
  #main__about {
-   display: flex;
    text-align: center;
    margin-top: 1rem; 
-   font-size: 2rem;
+   font-size: 1.6rem;
    font-weight: 500;
    color: #fff;
    padding-bottom: 50px;
     
  }
 
- .main__content p {
-   display: inline;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #fff;
- }
  .main__btn {
    float: right;
     font-size: 1rem;
