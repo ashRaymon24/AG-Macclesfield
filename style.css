@@ -650,9 +650,10 @@
  }
  .vision {
    background-color: #fff;
-   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic14v2.jpg);
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic15.jpg);
    background-position: center;
    background-size: cover;
+   min-height: 100vh;
    height: fit-content;
    padding-bottom: 20px;
  }
