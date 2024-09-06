@@ -691,7 +691,62 @@
    font-size: 2rem;
    color: #fff;
  }
+ .value {
+   background-color: #fff;
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic17v2.jpg);
+   background-position: center;
+   background-size: cover;
+   height: fit-content;
+   padding-bottom: 20px;
+ }
+ .value__container {
+   display: flex;
+   margin: 0 auto;
+   height: fit-content;
+   z-index: 1;
+   width: 100%;
+   max-width: 1300px;
+   padding: 50px;
+ }
+ .value__column1 {
+   display: flex;
+  flex-direction: column;
+  text-align: center;
 
+ }
+ .value__column2 {
+   display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .value h1 {
+   text-align: center;
+   width: 600px;
+   padding-top: 5rem;
+   margin: 0 auto;
+   font-size: 3.5rem;
+   color: #fff;
+ }
+ .value h2 {
+   text-align: center;
+   font-weight: 600;
+   padding-top: 1rem;
+   margin: 0 20px;
+   font-size: 2rem;
+   color: #9bcef8;
+ }
+ .value p {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   margin: 0 50px;
+   font-size: 1.2rem;
+   color: #fff;
+ }
+ #value__foot {
+   font-size: 1.5rem;
+   font-weight: 500;
+ }
  .service {
    background-color: #fff;
    background-image: linear-gradient(#577bdf, rgba(140, 192, 235, 0.7));
