@@ -270,7 +270,7 @@
       display: block;
       align-items: center;
       justify-self: center;
-      width: auto;
+      width: fit-content;
       height: fit-content;
    }
    .service h1 {
@@ -302,7 +302,7 @@
  }
  
  .main2 {
-   width: auto;
+   width: fit-content;
    max-width: 1300px;
    height: fit-content;
  }
@@ -321,7 +321,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 110vh;
     height: fit-content;
     z-index: 1;
     width: 100%;
@@ -447,9 +447,8 @@
       grid-template-columns: auto;
       align-items: center;
       justify-self: center;
-      width: 100%;
       margin: 0 auto;
-      height: 90vh;
+      height: fit-content;
    }
    .about__pic {
       height: 20rem;
@@ -463,6 +462,18 @@
    .about h2 {
       font-size: 1.5rem;
    }
+   .value {
+      align-items: center;
+      justify-self: center;
+      place-items: center;
+   }
+   .value__container {
+      
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4rem;
+   }
+   
  }
  
  @media screen and(max-width: 480px) {
@@ -496,10 +507,8 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: fit-content;
     z-index: 1;
-    width: 100%;
-    max-width: 1300px;
     padding: 0 50px;
  }
  .about__pic {
@@ -899,10 +908,11 @@
    color: #ff8b74;
  }
  .footer-container {
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 10px 10px;
+   padding: 10px 0;
    background-color: #3c7be76d;
  }
 #footer__email {
@@ -1044,7 +1054,6 @@
       display: inline;
       align-items: center;
       justify-self: center;
-      width: 100%;
       margin: 0 auto;
       height: fit-content;
    }
