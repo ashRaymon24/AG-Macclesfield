@@ -826,7 +826,7 @@
  .service__row2 {
    flex-wrap: wrap;
    background-color: #fff;
-   background-image: linear-gradient(rgba(244, 69, 69, 0.447), rgba(192, 0, 0, 0.493)), url(images/pic18.jpg);
+   background-image: linear-gradient(rgba(244, 69, 69, 0.447), rgba(192, 0, 0, 0.493)), url(images/pic18v2.jpg);
    background-position: center;
    background-size: cover;
    border-radius: 20px;
