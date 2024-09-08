@@ -186,7 +186,7 @@
        width: 100%;
        max-width: 1300px;
        padding: 0;
-    }
+      }
  
     .navbar__menu {
        display: grid;
@@ -199,7 +199,7 @@
        opacity: 0;
        transition: all 0.5s ease;
        z-index: -1;
-    }
+      }
  
     .navbar__menu.active {
        background: rgba(1, 25, 64, 0.9);;
@@ -209,7 +209,7 @@
        z-index: 99;
        height: fit-content;
        font-size: 1.6rem;
-    }
+      }
  
     .navbar__toggle .bar {
        width: 25px;
@@ -217,22 +217,22 @@
        margin: 5px auto;
        transition: all 0.3s ease-in-out;
        background: #fff;
-    }
+      }
     .navbar__item {
        width: 100%;
-    }
+      }
     .navbar__links {
        text-align: center;
        padding: 10px 0;
        width: 100%;
        display: table;
-    }
+      }
     #mobile-menu {
        position: absolute;
        top: 20%;
        right: 5%;
        transform: translate(5%, 20%);
-    }
+      }
     .navbar__btn {
       padding-bottom: 10px;
     }
@@ -329,6 +329,12 @@
       top: 0;
       position: absolute;
       border-radius: 20px;
+   }
+   #vision__h31 {
+      font-size: 1.8em;
+   }
+   #vision__h32 {
+      font-size: 1.8em;
    }
  }
  
@@ -651,6 +657,7 @@
    background-size: cover;
    height: fit-content;
    padding-bottom: 20px;
+   padding: 10px;
  }
  .core__container {
    display: flex;
@@ -659,7 +666,7 @@
    z-index: 1;
    width: 100%;
    max-width: 1300px;
-   padding: 50px;
+  padding: 20px;
  }
  .core__column1 {
    display: flex;
@@ -683,7 +690,7 @@
    padding-top: 1rem;
    margin: 0 20px;
    font-size: 2rem;
-   color: #9bcef8;
+   color: #7ec5ff;
  }
  .core p {
    text-align: center;
@@ -697,19 +704,19 @@
    background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic15.jpg);
    background-position: center;
    background-size: cover;
-   min-height: 100vh;
+   min-height: 110vh;
    height: fit-content;
    padding-bottom: 20px;
  }
  .vision__container {
    align-items: center;
    justify-content: center;
-   margin: 0 auto;
+   margin: 0;
    min-height: 70vh;
    z-index: 1;
    width: 100%;
    max-width: 1300px;
-   padding: 50px;
+   padding: 10px;
  }
  .vision h1 {
    text-align: center;
@@ -974,7 +981,6 @@
 /* Mobile Responsive */
 @media screen and (max-width: 760px) {
    .core {
-     
       align-items: center;
       justify-self: center;
       width: 100%;
@@ -1007,7 +1013,7 @@
    }
    .core p {
       margin-top: 1rem;
-      font-size: 0.75rem;
+      font-size: 2rem;
       
    }
    .service {
@@ -1144,7 +1150,7 @@
       width: 100%;
       margin: auto;
       text-align: left;
-      font-size: 0.8rem;
+      font-size: 1rem;
    }
    .service {
       padding: 20px;
