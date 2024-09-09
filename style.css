@@ -888,7 +888,23 @@
    list-style-type: none;
    color: #fff
  }
-
+ #service__p {
+   padding-top: 50px;
+   font-size: 1.8rem;
+   font-weight: 600;
+   text-align: center;
+   color: #fff;
+ }
+ #service__link {
+   font-size: 1.8rem;
+   font-weight: 600;
+   color: #000;
+   text-decoration: none;
+ }
+ #service__link:hover {
+   color: #00c43e;
+   transition: all 0.3s ease;
+ }
 
  .contact {
    background-color: #fff;
