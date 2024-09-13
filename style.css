@@ -652,7 +652,7 @@
 
  .core {
    background-color: #fff;
-   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic13v2.jpg);
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic13v3.jpg);
    background-position: center;
    background-size: cover;
    height: fit-content;
@@ -701,7 +701,7 @@
  }
  .vision {
    background-color: #fff;
-   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic15.jpg);
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic15v2.jpg);
    background-position: center;
    background-size: cover;
    min-height: 110vh;
@@ -744,7 +744,7 @@
  }
  .value {
    background-color: #fff;
-   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic17v3.jpg);
+   background-image: linear-gradient(rgba(51, 53, 60, 0.5), rgba(65, 75, 79, 0.5)), url(images/pic17v4.jpg);
    background-position: center;
    background-size: cover;
    height: fit-content;
@@ -978,11 +978,20 @@
  }
  #contact__link {
    text-align: left;
-   font-weight: 500;
+   font-size: 1.4rem;
+   font-weight: 600;
    color: #21dad6;
  }
  #contact__link:hover {
-   color: #ff8b74;
+   color: #e47660;
+ }
+ #contact__email {
+   text-align: left;
+   font-weight: 600;
+   color: #21dad6;
+ }
+ #contact__email:hover {
+   color: #e47660;
  }
  .footer-container {
    width: 100%;
