@@ -1118,11 +1118,11 @@
       text-align: center;
    }
    .contact h2 {
-      font-size: 1.5rem;
+      font-size: 2rem;
    }
    .contact li {
       margin-bottom: 1rem;
-      font-size: 1rem;
+      font-size: 1.5rem;
    }
 
 }
@@ -1266,20 +1266,24 @@
       width: auto;
       margin: 10px;
       text-align: center;
-      font-size: 2rem;
+      font-size: 3rem;
    }
    .contact h2 {
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 2rem;
    }
    .contact li {
+    
+      font-size: 1.5rem;
       text-align: center;
       align-items: center;
    }
    #contact__email {
+      font-size: 1rem;
       text-align: center;
       align-items: center;
-      width: auto;
+      margin: auto;
+      
    }
    .contact__map iframe {
       margin: 0 auto;
