@@ -906,12 +906,12 @@
  }
  #service__link {
    font-size: 1.8rem;
-   font-weight: 600;
-   color: #fffb79;
+   font-weight: 650;
+   color: #b5ffb1;
    text-decoration: none;
  }
  #service__link:hover {
-   color: #a6ffa1;
+   color: #eff3be;
    transition: all 0.3s ease;
  }
 
