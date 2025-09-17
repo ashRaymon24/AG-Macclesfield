@@ -13,8 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="main2">
-            <nav class="navbar" id="navbar">
+        <nav class="navbar" id="navbar">
                 <div class="navbar__container">
                     <img id="navbar__AG" src="images/logo.png" alt="AG">
                     <a href="#main__jump" id="navbar__logo">Assemblies of God</a>
@@ -23,7 +22,7 @@
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </div>
-                    <ul class="navbar__menu">
+                    <ul class="navbar__menu" id="navbar__menu__id">
                         <li class="navbar__item">
                             <a href="#main__jump" class="navbar__links">Home</a>
                         </li>
@@ -75,6 +74,7 @@
                     </ul>
                 </div>
             </nav>
+        <div class="main2">
             <div id="contents">
             <!-- Hero Section-->
                 <div class="main" id="main__jump">
@@ -446,6 +446,20 @@
                 }
                 prevScrollpos = currentScrollPos;
                 }
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    console.log("JS loaded ✅");
+                    const menu = document.getElementById("mobile-menu");
+                    const mobileMenu = document.getElementById("navbar__menu__id");
+                    const navMenu = document.querySelector(".navbar__menu"); // define navMenu
+
+                    mobileMenu.onclick = () => {
+                        console.log("Hamburger clicked 🍔");
+                        navMenu.classList.toggle("active");
+                        menu.classList.toggle("is-active");
+                    };
+                });
             </script>
         </div>
     </body>
