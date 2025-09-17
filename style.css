@@ -457,6 +457,10 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 760px) {
+   .navbar {
+     padding: 10px 0;
+     width: 100vw;
+  }
    .main__container {
       display: grid;
       grid-template-columns: auto;
@@ -518,6 +522,10 @@
 }
 
 @media screen and(max-width: 480px) {
+   .navbar {
+     padding: 10px 0;
+     width: 100vw;
+  }
   .contact__container {
      align-items: center;
      text-align: center;
