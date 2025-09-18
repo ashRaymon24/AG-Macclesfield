@@ -9,7 +9,9 @@
 html,body{
     overflow-x: hidden;
 }
-
+footer {
+   overflow-y: hidden;
+}
 .navbar {
    background-color: rgba(18, 61, 132, 0.7);
    height: 60px;
