@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AG Church Macclesfield</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico?">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar" id="navbar">
+                <div class="navbar__container">
+                    <img id="navbar__AG" src="images/logo.png" alt="AG">
+                    <a href="index.html#main__jump" id="navbar__logo">Assemblies of God</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu" id="navbar__menu__id">
+                        <li class="navbar__item">
+                            <a href="index.html#main__jump" class="navbar__links">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown" class="navbar__item">
+                                <button class="dropbtn" >About us
+                                <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                <a href="index.html#intro__jump" >Who we are</a>
+                                <!--<a href="#about__jump">Church Leaders</a>-->
+                                <a href="index.html#core__jump">Fundamental Beliefs</a>
+                                <a href="index.html#vision__jump">Vision Plus</a>
+                                <a href="index.html#value__jump">Core Values</a>
+                                </div>
+                            </div>
+                        </li>
+                        <div id="navbar__mob">
+                            <li class="navbar__item">
+                                <a href="index.html#intro__jump" class="navbar__links">Who we are</a>
+                            </li>
+                            <!--
+                            <li class="navbar__item">
+                                <a href="#about__jump" class="navbar__links">Church Leaders</a>
+                            </li>
+                        -->
+                            <li class="navbar__item">
+                                <a href="index.html#core__jump" class="navbar__links">Fundamental Beliefs</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="index.html#vision__jump" class="navbar__links">Vision Plus</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="index.html#value__jump" class="navbar__links">Core Values</a>
+                            </li>
+                        </div> 
+                        <li class="navbar__item">
+                            <a href="index.html#service__jump" class="navbar__links">Our Programmes</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="https://drive.google.com/drive/folders/1ZWKsD5co8cHKOLeJlMjHIxlovXYmk7J-?usp=drive_link" class="navbar__links" target="_blank">Gallery</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="https://drive.google.com/drive/folders/1KOwsVo8dvXCQCX0UTrBF1gQluWfRlSvi?usp=drive_link" class="navbar__links" target="_blank">Resources</a>
+                        </li>
+                        <li class="navbar__btn">
+                            <a href="#contact__jump" class="button">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="message" id="message__jump">
+                <h1>Get in touch "SITE WORK IN PROGRESS"</h1>
+                <form class="message__form" action="mailto:office@agchurchmacclesfield.org" method="POST" enctype="text/plain">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit" class="message__btn">Send Message</button>
+                </form>
+            </div>
+
+            <script>
+                const menu = document.querySelector('#mobile-menu');
+                const menuLinks = document.querySelector('.navbar__menu');
+                const navbarMob = document.getElementById('navbar__mob')
+                menu.addEventListener('click', function() {
+                    menu.classList.toggle('is-active');
+                    menuLinks.classList.toggle('active');
+                });
+            </script>
+            <script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    console.log("up");
+                    navbar.classList.remove("navbar__hidden");
+                } else {
+                    console.log("down");
+                    navbar.classList.add("navbar__hidden");
+                }
+                prevScrollpos = currentScrollPos;
+                }
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const menu = document.getElementById("mobile-menu");
+                    const mobileMenu = document.getElementById("navbar__menu__id");
+                    const navMenu = document.querySelector(".navbar__menu"); // define navMenu
+                    mobileMenu.onclick = () => {
+                        navMenu.classList.toggle("active");
+                        menu.classList.toggle("is-active");
+                    };
+                });
+            </script>
+        </div>
+    </body>
+    <footer>
+        <div class="footer-container">
+          <ul>
+            <li><a href="https://www.youtube.com/@ChurchAdmin-m2g" target="_blank"><img class="footer__logo" src="images/pic19.png" alt="YOUTUBE"></a></li>
+            <li id="footer__email"><a href="mailto:office@agchurchmacclesfield.org" style="text-decoration: none; color:#000">office@agchurchmacclesfield</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61559561290964" target="_blank"><img class="footer__logo" src="images/pic8.png" alt="FB"></a></li>
+          </ul>
+        </div>
+    </footer>
+</html>
