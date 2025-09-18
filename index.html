@@ -449,13 +449,10 @@
             </script>
             <script>
                 document.addEventListener("DOMContentLoaded", () => {
-                    console.log("JS loaded ✅");
                     const menu = document.getElementById("mobile-menu");
                     const mobileMenu = document.getElementById("navbar__menu__id");
                     const navMenu = document.querySelector(".navbar__menu"); // define navMenu
-
                     mobileMenu.onclick = () => {
-                        console.log("Hamburger clicked 🍔");
                         navMenu.classList.toggle("active");
                         menu.classList.toggle("is-active");
                     };
