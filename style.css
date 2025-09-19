@@ -1364,9 +1364,10 @@ footer {
   }
   .contact__map iframe {
      margin: 0 auto;
+     padding: 10px;
      height: 50vh;
      width: 60vw;
-     left: 0;
+     left: -14vw;
      top: 0;
      position: absolute;
      border-radius: 20px;
