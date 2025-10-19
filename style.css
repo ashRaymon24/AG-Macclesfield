@@ -40,7 +40,6 @@ footer {
    height: 60px;
    z-index: 1;
    width: 100%;
-   max-width: 1300px;
    margin: 0 auto;
    padding: 0 50px;
 }
@@ -191,7 +190,6 @@ footer {
       height: auto;
       z-index: 1;
       width: 100%;
-      max-width: 1300px;
       padding: 0;
      }
 
@@ -368,6 +366,8 @@ footer {
    height: fit-content;
    z-index: 1;
    width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
    padding: 0 50px;
 }
 
@@ -618,7 +618,6 @@ footer {
   min-height: 80vh;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding: 50px;
   position: relative;
 }
@@ -687,7 +686,7 @@ footer {
   height: fit-content;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+
  padding: 20px;
 }
 .core__column1 {
@@ -737,7 +736,6 @@ footer {
   min-height: 70vh;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding: 10px;
 }
 .vision h1 {
@@ -781,7 +779,6 @@ footer {
   height: fit-content;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding: 10px;
 }
 .value__column1 {
@@ -839,7 +836,6 @@ footer {
    height: fit-content;
    z-index: 1;
    width: 100%;
-   max-width: 1300px;
 }
 .service__row {
   display: flex;
@@ -943,7 +939,6 @@ footer {
    height: fit-content;
    z-index: 1;
    width: 100%;
-   max-width: 1300px;
    padding: 50px;
 }
 .contact__map {
@@ -1371,4 +1366,3 @@ footer {
      border-radius: 20px;
   }
 }
-
