@@ -347,7 +347,6 @@ footer {
 
 .main2 {
   width: auto;
-  max-width: 1300px;
   height: fit-content;
 }
 .main {
@@ -1372,3 +1371,4 @@ footer {
      border-radius: 20px;
   }
 }
+
